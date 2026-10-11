@@ -1,0 +1,1 @@
+{"name":"primelayer-trades-render","private":true,"version":"1.0.0","dependencies":{"@fontsource/geist-mono":"^5.3.0","@fontsource/sora":"^5.3.0","puppeteer-core":"^23.11.1"}}
