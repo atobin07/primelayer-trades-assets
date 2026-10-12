@@ -6,7 +6,7 @@ This is the full procedure for the Saturday scheduled task. A session with no me
 
 Every Saturday, write, design, render and schedule the next Monday to Sunday of social posts for PrimeLayer Trades across three channels. The purpose of every post is to grow the waitlist and, later, fill the founders circle. Nobody reviews the posts before they publish, so the rules below are strict.
 
-PrimeLayer Trades is software that runs a trading strategy the user picks or builds, around the clock, on their own Coinbase or Alpaca account. It is a subscription. The founder posts as Alex Tobin. Tagline: "Tested strategies, automated around the clock."
+PrimeLayer Trades is software that runs a trading strategy the user picks or builds, around the clock, on their own Coinbase or Alpaca account. It is a subscription. Tagline: "Tested strategies, automated around the clock."
 
 ## Hard rules (a post that breaks one does not ship)
 
@@ -24,7 +24,8 @@ PrimeLayer Trades is software that runs a trading strategy the user picks or bui
 12. No live trade results unless `config.json` has `live_trade_receipts` set to true.
 13. No emoji. No hashtags on LinkedIn beyond two. No more than one on X.
 14. Do not trade, move funds, change any database, send any email or touch any account other than Buffer and the assets repo.
-15. If a rule cannot be met for a post, drop that post and say so in the report. A thin week is better than a wrong post.
+15. Everything is branded as the company. Write as "we" or "PrimeLayer Trades" on every channel, including the personal LinkedIn profile. Never write "I", "me" or "my". Never name, sign off as, quote or describe any individual person, founder or employee. No personal stories.
+16. If a rule cannot be met for a post, drop that post and say so in the report. A thin week is better than a wrong post.
 
 ## Step 1: set up
 
@@ -44,7 +45,7 @@ Buffer organization id `69e8ce8837e5d3634ae36ba8`.
 | Channel | Buffer channel id | Days | Voice |
 |---|---|---|---|
 | X @tradeprimelayer | `6acbed5b778b240e2fdc1cef` | Every day | Brand. One idea, one number. 280 characters at most, counted with code. |
-| LinkedIn profile, Alex Tobin | `69e8cf77031bfa423c2f30ce` | Mon, Wed, Fri | Founder, first person. 80 to 180 words. What we tested, what surprised us, what we changed. |
+| LinkedIn profile (personal account, company voice) | `69e8cf77031bfa423c2f30ce` | Mon, Wed, Fri | Company voice, "we". 80 to 180 words. What we tested, what surprised us, what we changed. |
 | LinkedIn page, PrimeLayer Trades | `6acbe4c1778b240e2fdbbab5` | Tue, Thu | Product and method. 60 to 150 words. |
 
 Times: 8:30 am Eastern on weekdays, 10:00 am Eastern on Saturday and Sunday. Build `dueAt` with the correct America/New_York offset for that date (it changes when daylight saving ends).
@@ -57,7 +58,7 @@ Across the 12 posts aim for:
 
 * 4 market data posts. A fresh, checkable fact about how a market actually moved.
 * 4 strategy test posts. What a tested strategy did, wins and losses together.
-* 2 method or founder posts. How we test, what we got wrong, why we cut a number.
+* 2 method posts. How we test, what we got wrong, why we cut a number.
 * 2 product posts. What the software does and who it is for, tied to the week's data.
 
 Every week needs at least two market data posts built from numbers computed this session, so the feed stays current. The same fact may run on X and LinkedIn in the same week, rewritten for each, on different days.
@@ -95,7 +96,7 @@ Strategy tests. Hypothetical walk forward backtest, 2022 to 2026, 25 liquid coin
 * 22 strategies tested. 12 made money. 10 lost.
 * 6 of 22 won at least half their trades. 5 of those 6 lost money, average return down 23.6 percent.
 * 16 won less than half their trades. 11 of those made money, average return up 8.1 percent.
-* Best: Bollinger Band Breakout, up 38 percent in total, about 7 percent a year, max drawdown 16.9 percent, won 32 percent of its trades.
+* Best: Confirmed Bollinger Breakout, up 38.3 percent in total, about 7 percent a year, max drawdown 16.9 percent, won 32 percent of its 779 trades. Its close variant Bollinger Band Breakout was up 38 percent with the same drawdown and win rate.
 * Worst: Stochastic Reversal, down 48.1 percent, max drawdown 58.4 percent, won 55 percent of its trades.
 * 8 dip buying strategies tested. 7 lost money. Average return down 23.7 percent, average max drawdown 38.8 percent. The one that made money took 5 trades in the whole period.
 * 9 trend strategies. 7 made money. Average return up 7.5 percent.
