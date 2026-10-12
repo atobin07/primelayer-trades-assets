@@ -25,7 +25,8 @@ PrimeLayer Trades is software that runs a trading strategy the user picks or bui
 13. No emoji. No hashtags on LinkedIn beyond two. No more than one on X.
 14. Do not trade, move funds, change any database, send any email or touch any account other than Buffer and the assets repo.
 15. Everything is branded as the company. Write as "we" or "PrimeLayer Trades" on every channel, including the personal LinkedIn profile. Never write "I", "me" or "my". Never name, sign off as, quote or describe any individual person, founder or employee. No personal stories.
-16. If a rule cannot be met for a post, drop that post and say so in the report. A thin week is better than a wrong post.
+16. Every caption on every channel includes the tagline "Tested strategies, automated around the clock." on its own line, near the end, above any disclaimer line. Never use the retired tagline "Your strategy never sleeps. You should." On X, count the tagline toward the 280 characters.
+17. If a rule cannot be met for a post, drop that post and say so in the report. A thin week is better than a wrong post.
 
 ## Step 1: set up
 
